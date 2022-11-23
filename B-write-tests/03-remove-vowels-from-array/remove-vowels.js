@@ -8,6 +8,8 @@ function removeVowels(word) {
       character !== "a" &&
       character !== "o" &&
       character !== "i" &&
+      character !== "I" &&
+      character !== "E" &&
       character !== "e" &&
       character !== "u"
     ) {
@@ -26,4 +28,5 @@ module.exports = removeVowels;
   let result = removeVowels('samuel');
 
   what is the value of result?
+  Ans: "sml"
 */
